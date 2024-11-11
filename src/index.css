@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header-class{
+  height: 20vh;
+  display: flex;
+  color: white;
+  background-color: #2b2d42;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.display-date{
+  width: 80%;
+  height: 11vh;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  background-color: #343a40;
+  margin: auto;
+  margin-top: 2.5rem;
+}
+
+.display-date p{
+  font-size: 1.5rem;
+}
+
+
+/* Conteneur task */
+
+.container-task{
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.container-task>h1{
+  color: #2b2d42;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.task-divs{
+  height: 200px;
+  display: flex;
+  margin-bottom: 1.3rem;
+  background-color: rgba(186, 186, 186, 0.121);
+  border-radius: 10px;
+}
+
+.icon-task{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top,.bottom{
+  height: 50%;
+  padding-left: 1rem;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.top h2{
+  font-size: 1.1rem;
+  padding: 0;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+}
+
+.bottom p{
+  width: 80%;
+}
+
+
+
+
+
+.color-statut {
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+  border-radius: 50px;
+}
+
+/* Couleurs spécifiques par statut */
+.color-en-cours {
+  padding: 5px 10px 5px 10px;
+  border-radius: 50px;
+  background-color: #FFCC00;
+}
+
+.color-presque-termine {
+  background-color: #3399FF; 
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 50px;
+}
+
+.color-termine {
+  background-color: #33CC66; 
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 50px;
+}
+
+.color-archive {
+  background-color: #888888;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 50px;
+}
+
+.btn-delete {
+  background-color: red;
+  color: white;
+  box-shadow: none; 
+  border: none; 
+  outline: none; 
+  appearance: none; 
+  margin-left: auto; 
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 2rem;
+}
+
+
+.footer-class{
+  height: 10vh;
+  display: flex;
+  color: white;
+  font-size: 0.75rem;
+  background-color: #2b2d42;
+  align-items: center;
+  justify-content: center;
+}
